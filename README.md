@@ -11,12 +11,12 @@ The QuickBooksOnline Folder has two sub folders
     
 To open the Clarion 10 ABC App you need the following CapeSoft templates:
 
-  cryptonite    (Could be removed, only use it to encrypt the token)
-  messagebox    (Think it could be removed)
-  NetTalk
-  SelfService   (Could be removed)
-  StringTheory
-  WinEvent      (Think it could be removed)
-  xFiles        (Could be removed and replace with jfiles)
-  jFiles
+  cryptonite    (Could be removed, only use it to encrypt the token),
+  messagebox    (Think it could be removed),
+  NetTalk,
+  SelfService   (Could be removed),
+  StringTheory,
+  WinEvent      (Think it could be removed),
+  xFiles        (Could be removed and replace with jfiles),
+  jFiles.
   
