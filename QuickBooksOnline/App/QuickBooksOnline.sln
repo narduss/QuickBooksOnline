@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Clarion 2.1.0.2447
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "QuickBooksOnline", "QuickBooksOnline.cwproj", "{20357ACC-A1C4-4551-9320-3FE04F635DB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{{2150E333-8FDC-42A3-9474-1A3956D46DE8}}"
+	ProjectSection(SolutionItems) = postProject
+		QuickBooksOnline.app = QuickBooksOnline.app
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "~Dict", "~Dict", "{FCF63672-5A6C-4920-8736-087580F727BC}"
+	ProjectSection(SolutionItems) = postProject
+		QB.dct = QB.dct
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "~Classes", "~Classes", "{95C99B29-E7EF-4304-9683-7B57043705CF}"
+	ProjectSection(SolutionItems) = postProject
+		..\..\..\..\..\Clarion10\accessory\libsrc\win\NetOAuth.clw = ..\..\..\..\..\Clarion10\accessory\libsrc\win\NetOAuth.clw
+		..\..\..\..\..\Clarion10\accessory\libsrc\win\NetOAuth.inc = ..\..\..\..\..\Clarion10\accessory\libsrc\win\NetOAuth.inc
+		..\..\..\..\..\Clarion10\accessory\libsrc\win\NetWww.inc = ..\..\..\..\..\Clarion10\accessory\libsrc\win\NetWww.inc
+		..\..\..\..\..\Clarion10\accessory\libsrc\win\NetAll.inc = ..\..\..\..\..\Clarion10\accessory\libsrc\win\NetAll.inc
+		..\..\..\..\..\Clarion10\accessory\libsrc\win\qs_qb_online_class.clw = ..\..\..\..\..\Clarion10\accessory\libsrc\win\qs_qb_online_class.clw
+		..\..\..\..\..\Clarion10\accessory\libsrc\win\qs_qb_online_class.inc = ..\..\..\..\..\Clarion10\accessory\libsrc\win\qs_qb_online_class.inc
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20357ACC-A1C4-4551-9320-3FE04F635DB4}.Debug|Win32.Build.0 = Debug|Win32
+		{20357ACC-A1C4-4551-9320-3FE04F635DB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20357ACC-A1C4-4551-9320-3FE04F635DB4}.Release|Win32.Build.0 = Release|Win32
+		{20357ACC-A1C4-4551-9320-3FE04F635DB4}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+EndGlobal

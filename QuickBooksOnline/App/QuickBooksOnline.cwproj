@@ -1,0 +1,212 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{20357ACC-A1C4-4551-9320-3FE04F635DB4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>QuickBooksOnline</AssemblyName>
+    <OutputName>QuickBooksOnline</OutputName>
+    <DefineConstants>_NT10_=&gt;1%3bNETTALKLOG=&gt;1%3b_ODDJOB_=&gt;0%3b_CRYPTONITE_=&gt;1%3b_DRAW_=&gt;0%3b_JFILES_=&gt;1%3bStringTheoryLinkMode=&gt;1%3bStringTheoryDllMode=&gt;0%3bMD5=&gt;0%3bWinEventLinkMode=&gt;1%3bWinEventDLLMode=&gt;0%3bxFilesLinkMode=&gt;1%3bxFilesDllMode=&gt;0%3bSelfServiceLinkMode=&gt;1%3bSelfServiceDllMode=&gt;0%3b_NoCSMesBox_=&gt;0%3b_MSGThreadSafe_=&gt;1%3bCryptoniteLinkMode=&gt;1%3bCryptoniteDllMode=&gt;0%3b_CRYPTOINI_=&gt;1%3bjFilesLinkMode=&gt;1%3bjFilesDllMode=&gt;0%3b_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1%3b_NetTalkDllMode_=&gt;0%3b_NetTalkLinkMode_=&gt;1%3bHyperActiveLinkMode=&gt;1%3bHyperActiveDllMode=&gt;0%3bGPFReporterLinkMode=&gt;1%3bGPFReporterDllMode=&gt;0</DefineConstants>
+    <Model>Dll</Model>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <vid>full</vid>
+    <check_stack>True</check_stack>
+    <check_index>True</check_index>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <vid>off</vid>
+    <check_stack>False</check_stack>
+    <check_index>False</check_index>
+  </PropertyGroup>
+  <ItemGroup>
+    <FileDriver Include="ASCII" />
+    <FileDriver Include="DOS" />
+    <FileDriver Include="TOPSPEED" />
+    <Compile Include="QuickBooksOnline.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline001.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline002.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline003.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline004.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline005.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline006.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline007.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline008.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline009.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline020.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline022.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline024.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline025.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline027.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline028.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline029.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline030.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline031.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline032.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline033.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline034.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline035.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline036.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline037.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline038.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline039.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline040.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline041.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline042.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline043.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline044.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline045.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline046.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline047.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline048.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline052.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline053.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline054.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline055.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline057.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline058.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline059.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QUICKBOOKSONLINE_BC.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="QuickBooksOnline_BC0.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="Quick_nw.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Library Include="clanet.lib" />
+    <Library Include="Crypt32.lib">
+      <CopyDllToOutputDirectory>Never</CopyDllToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </Library>
+    <Library Include="hand2.cur" />
+    <None Include="caroot.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="dh2048.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="libcrypto-1_1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="libssl-1_1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="msvcr120.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="OpenSSL.Exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="zlibwapi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+  </ItemGroup>
+  <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
+</Project>
